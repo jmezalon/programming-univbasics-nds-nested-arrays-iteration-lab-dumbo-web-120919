@@ -27,17 +27,15 @@ def find_greater_pair(src)
   result = []
   while i < src.count do 
     j = 1 
-    innResult = []
     while j < src[i].count do 
       if src[i][j - 1] > src[i][j]
-        innResult << src[i][j - 1]
+        result << src[i][j - 1]
       end
       j += 1
     end
     i += 1
   end
-  result << innResult
-  return result
+    return result
 end
 
 def total_even_pairs(src)
