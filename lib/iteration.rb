@@ -27,14 +27,12 @@ def find_greater_pair(src)
   result = []
   while i < src.count do 
     j = 1 
-    innerRes = []
     while j < src[i].count do 
       if src[i][j - 1] < src[i][j]
-        innerRes << src[i][j]
+        result << src[i][j]
       end
       j += 1
     end
-    result << innerRes
     i += 1
   end
     return result
