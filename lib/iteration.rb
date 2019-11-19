@@ -29,7 +29,7 @@ def find_greater_pair(src)
     j = 0 
     while j < src[i].count do 
       if src[i][0] > src[i][1]
-        result << src[i][j - 1]
+        result << src[i][0]
       end
       j += 1
     end
