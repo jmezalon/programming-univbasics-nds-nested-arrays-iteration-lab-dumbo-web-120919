@@ -28,8 +28,8 @@ def find_greater_pair(src)
   while i < src.count do 
     j = 0 
     while j < src[i].count do 
-      if src[i][j] > src[i][1]
-        result << src[i][j]
+      if src[i][j][0] > src[i][j][1]
+        result << src[i][j][0]
       end
       j += 1
     end
