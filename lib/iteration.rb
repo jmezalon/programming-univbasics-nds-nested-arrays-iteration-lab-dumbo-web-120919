@@ -32,10 +32,10 @@ def find_greater_pair(src)
       if src[i][j - 1] < src[i][j]
         innerRes << src[i][j]
       end
-      j++
+      j += 1
     end
     result << innerRes
-    i++
+    i += 1
   end
     return result
 end
