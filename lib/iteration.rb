@@ -11,7 +11,7 @@ def join_ingredients(src)
   while i < src.count do 
     j = 0 
     while j < src[i].count do 
-      result << "I love #{src[i][j]} and #{[i][j+1]} on my pizza"
+      result << "I love #{src[i][j]} and #{[i][1]} on my pizza"
       j += 1
     end
     i += 1 
