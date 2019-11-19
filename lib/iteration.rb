@@ -9,9 +9,9 @@ def join_ingredients(src)
   result = []
   i = 0 
   while i < src.count do 
-    j = 0 
+    j = 1 
     while j < src[i].count do 
-      result << "I love #{src[i][i]} and #{src[i][j]} on my pizza"
+      result << "I love #{src[i][j]} and #{src[i][j]} on my pizza"
       j += 1
     end
     i += 1 
