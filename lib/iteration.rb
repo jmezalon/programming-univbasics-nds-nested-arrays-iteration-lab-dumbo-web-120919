@@ -34,6 +34,7 @@ def find_greater_pair(src)
       j++
     end
     i++
+  end
     return result
 end
 
