@@ -31,7 +31,7 @@ def find_greater_pair(src)
       if src[row_index][element_index] > src[row_index][1]
         res << src[row_index][element_index]
       end
-      # element_index += 1 
+      element_index += 1 
     end
     row_index += 1 
   end
